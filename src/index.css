@@ -1,0 +1,8 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.css-nav {
+  @apply text-bgPrimary text-[14px] uppercase font-bold tracking-[0.32px] 
+  leading-[1.8] relative after:absolute after:-bottom-4 after:left-0 after:bg-transparent after:h-0.5 after:w-full hover:after:bg-gray-700 after:transition-all after:ease-in-out after:duration-300;
+}
